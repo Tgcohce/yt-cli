@@ -1,0 +1,17 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore FFmpeg binaries (if applicable)
+ffmpeg-master-latest-win64-gpl/
+
+# Ignore API credentials
+secrets.json
+
+# Ignore any local configuration files
+*.env
+config.json
